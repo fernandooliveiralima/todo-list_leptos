@@ -1,0 +1,20 @@
+li{
+  color: #FFF;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+
+  input{
+    height: 1.1rem;
+    width: 1.1rem;
+  }
+
+  label{
+    padding: 0rem 0.5rem;
+  }
+
+  .task_done{
+      color: green;
+      text-decoration: line-through;
+  }
+}

@@ -1,0 +1,90 @@
+h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  border-bottom: 0.0625rem solid #444;
+  padding-bottom: 1.25rem;
+}
+
+ul {
+  background-color: #20212C;
+  display: flex;
+  align-items: start;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+li {
+  color: #FFF;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+}
+li input {
+  height: 1.1rem;
+  width: 1.1rem;
+}
+li label {
+  padding: 0rem 0.5rem;
+}
+li .task_done {
+  color: green;
+  text-decoration: line-through;
+}
+
+.form_container {
+  border: 0.0625rem solid #555;
+  border-radius: 0.9375rem;
+  padding: 0.625rem;
+  margin: 1.25rem 0;
+}
+.form_container form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form_container form input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #FFF;
+  font-size: 1.125rem;
+  flex: 1;
+}
+.form_container form button {
+  padding: 0.5rem 3rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: purple;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.125rem;
+}
+.form_container form button:hover {
+  background-color: #9d2e9d;
+  transition: ease 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #17181f;
+  color: #797a81;
+  min-height: 100vh;
+}
+.container .area {
+  margin: auto;
+  max-width: 61.25rem;
+  padding: 0.625rem;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../src/components/Header/header.scss%22,%22../../src/components/List/list.scss%22,%22../../src/components/list/todo_item/list_item.scss%22,%22../../src/components/form/form.scss%22,%22../../src/style/main.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACE;EACA;EACA;EACA;EACA;EACA;;;ACNF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;;ACPF;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;;AAGF;EACE;;AAGF;EACI;EACA;;;ACjBN;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;;;AC5BR;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA%22,%22file%22:%22main.css%22%7D */

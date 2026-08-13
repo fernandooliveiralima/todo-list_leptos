@@ -1,0 +1,22 @@
+@use "../components/Header/header.scss";
+@use "../components/List/list.scss";
+@use "../components/list/todo_item/list_item.scss";
+@use "../components/form/form.scss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: #17181f;
+  color: #797a81;
+  min-height: 100vh;
+
+  .area{
+    margin: auto;
+    max-width: 61.25rem;
+    padding: 0.625rem;
+  }
+}

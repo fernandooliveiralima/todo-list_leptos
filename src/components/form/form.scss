@@ -1,0 +1,38 @@
+.form_container{
+  border: 0.0625rem solid #555;
+  border-radius: 0.9375rem;
+  padding: 0.625rem;
+  margin: 1.25rem 0;
+
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    input{
+      border: none;
+      background-color: transparent;
+      outline: none;
+      color: #FFF;
+      font-size: 1.125rem;
+      flex: 1;
+    }
+
+    button{
+      padding: 0.5rem 3rem;
+      border: none;
+      border-radius: 0.3rem; 
+      background-color: purple;
+      color: #FFF;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: 500;
+      letter-spacing: 0.125rem;
+
+      &:hover{
+        background-color: #9d2e9d;
+        transition: ease 0.3s;
+      }
+    }
+  }
+}
