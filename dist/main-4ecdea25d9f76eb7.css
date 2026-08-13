@@ -69,6 +69,12 @@ li .task_done {
   background-color: #9d2e9d;
   transition: ease 0.3s;
 }
+.form_container .validation_message {
+  color: #f00;
+  font-size: 1rem;
+  font-family: sans-serif;
+  letter-spacing: 0.1rem;
+}
 
 * {
   margin: 0;
@@ -87,4 +93,4 @@ li .task_done {
   padding: 0.625rem;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../src/components/Header/header.scss%22,%22../../src/components/List/list.scss%22,%22../../src/components/list/todo_item/list_item.scss%22,%22../../src/components/form/form.scss%22,%22../../src/style/main.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACE;EACA;EACA;EACA;EACA;EACA;;;ACNF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;;ACPF;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;;AAGF;EACE;;AAGF;EACI;EACA;;;ACjBN;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;;;AC5BR;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA%22,%22file%22:%22main.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../src/components/Header/header.scss%22,%22../../src/components/List/list.scss%22,%22../../src/components/list/todo_item/list_item.scss%22,%22../../src/components/form/form.scss%22,%22../../src/style/main.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACE;EACA;EACA;EACA;EACA;EACA;;;ACNF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;;ACPF;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;;AAGF;EACE;;AAGF;EACI;EACA;;;ACjBN;EACE;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;;AAKN;EACE;EACA;EACA;EACA;;;ACrCJ;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA%22,%22file%22:%22main.css%22%7D */

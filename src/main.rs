@@ -28,8 +28,8 @@ fn App() -> impl IntoView {
         <div class="container">
             <section class="area">
                 <Header />
-                <FormTask task_list=output_list />
-                <List emit_list=set_output_list />
+                <FormTask task_list=output_list emitted_updated_list=set_output_list/>
+                <List emit_list=set_output_list prop_list=output_list/>
             </section>	
         </div> 
     }
